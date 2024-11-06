@@ -3,24 +3,36 @@
         "title": "Applet 1 - Basic Events",
         "description": "This application contains the basic implementation of DOM events.",
         "imageUrl": "https://4kwallpapers.com/images/walls/thumbs_3t/6722.png",
-        "link": "./L06-AppletGallery/"
+        "link": "./L06-AppletGallery/applet-1.html"
     },
     {
         "title": "Applet 2 - Leaflet Map",
         "description": "This application contains the basic web map.",
         "imageUrl": "https://4kwallpapers.com/images/walls/thumbs_3t/6722.png",
-        "link": "./L07-LeafletMap/"
+        "link": "./L07-LeafletMap/applet-2.html"
     },
     {
         "title": "Applet 3 - Event Logger",
         "description": "This application contains the logs with the date and total number of logs.",
         "imageUrl": "https://4kwallpapers.com/images/walls/thumbs_3t/6722.png",
-        "link": "./L08-EventLogger/"
+        "link": "./L08-EventLogger/applet-3.html"
     },
     {
         "title": "Applet 4 - Dynamic Elements",
         "description": "This application applies dynamic elements such as rendering DOM elements from a list.",
         "imageUrl": "https://4kwallpapers.com/images/walls/thumbs_3t/6722.png",
-        "link": "./L09-DynamicElements/"
+        "link": "./L09-DynamicElements/applet-4.html"
+    },
+    {
+        "title": "Applet 5 - Open Weather",
+        "description": "This application applies Open Weather.",
+        "imageUrl": "https://4kwallpapers.com/images/walls/thumbs_3t/6722.png",
+        "link": "./L011-OpenWeather/applet-5.html"
+    },
+    {
+        "title": "Applet 6 - To Do List",
+        "description": "This application applies To do list.",
+        "imageUrl": "https://4kwallpapers.com/images/walls/thumbs_3t/6722.png",
+        "link": "./L012-ToDoList/applet-6.html"
     }
 ]
