@@ -12,84 +12,113 @@
     <title>Applet 6 - Todo List</title>
 
     <style>
-      /* Container for applets */
-      .applet-flex-container {
-          width: 80%;  /* Adjust the container width */
-          margin-top: 2rem;
-          margin-left: 5rem;
-          display: flex;
-          justify-content: flex-start;
-          flex-wrap: wrap;
-          align-items: flex-start;
-      }
+        .applet-container {
+            margin-top: 1rem;
+            margin-left: 2rem;
+        }
 
-      /* Individual applet card */
-      .applet-card {
-          flex: 1 1 20rem;  /* Adjust the width of each applet card */
-          max-width: 20rem;  /* Max width for each applet card */
-          width: 20rem;  /* Set the exact width for applet card */
-          height: 18rem;  /* Adjust the height of the applet card */
-          margin-bottom: 1rem;
-          box-sizing: border-box;
-          background-color: #919191;
-          color: white;
-          border-radius: 20px;
-          border: 1px solid rgb(255, 255, 255);
-          padding: 20px;
-          transition: background-color 0.3s ease;
-      }
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+       body {
+        width: 100px;
+      background: #93b5f3;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
 
-      /* Applet card hover effect */
-      .applet-flex-container>div:hover {
-          background-color: #a29fa3;
-      }
+    .applet-flex-container {
+      width: 100px;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 2rem;
+      margin-left: 5rem;
+      width: 70%;
+    }
 
-      /* Image inside the card */
-      .card-img-top {
-          object-fit: cover;  /* Ensure the image covers the entire area */
-          height: 180px;  /* Set height of the image */
-      }
+    .applet-flex-container>div {
+      width: 100px;
+      margin-left: 0.8rem;
+      color: white;
+      border-radius: 20px;
+      border: 1px solid rgb(255, 255, 255);
+      background-color: #919191;
+      transition: background-color 0.3s ease;
+      padding: 20px;
+    }
 
-      /* Button inside the card */
-      .applet-btn {
-          position: absolute;
-          bottom: 20px;
-          right: 20px;
-          border-radius: 20px;
-          background-color: #f36f57;
-          border: none;
-          transition: transform 0.3s ease, border 0.3s ease, color 0.3s ease;
-      }
+    .applet-flex-container>div:hover {
+      background-color: #a29fa3;
+    }
 
-      .applet-btn:hover {
-          border: 1px solid #ffffff;
-          background-color: #bbbbbb;
-          color: #ffffff;
-          transform: scale(1.15);
-      }
+    .applet-flex-container>div:hover .applet-btn {
+      color: white;
+    }
 
-      .navbar {
-          background: linear-gradient(500deg, #000fdd, #103ccc);
-      }
+    .title {
+      margin-top: 1rem;
+      text-align: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      color: #f4a261;
+    }
 
-      .navbar .navbar-nav .nav-link {
-          color: white;
-      }
+    .applet-card {
+      flex: 1 1 20rem;
+      max-width: 20rem;
+      width: 25rem;
+      height: 15rem;
+      margin-bottom: 1rem;
+      box-sizing: border-box;
+    }
 
-      .navbar .navbar-brand {
-          color: white;
-      }
+    .applet-btn {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      border-radius: 20px;
+      background-color: #f36f57;
+      border: none;
+      transition: transform 0.3s ease, border 0.3s ease, color 0.3s ease;
+    }
 
-      form .btn {
-          border: 1px solid white;
-          color: white;
-      }
+    .applet-btn:hover {
+      border: 1px solid #ffffff;
+      background-color: #bbbbbb;
+      color: #ffffff;
+      transform: scale(1.15);
+    }
 
-      form .btn:hover {
-          background-color: #000000;
-          color: white;
-      }
-  </style>
+    .navbar {
+      background: linear-gradient(500deg, #000fdd, #103ccc);
+    }
+
+    .navbar .navbar-nav .nav-link {
+      color: white;
+    }
+
+    .navbar .navbar-brand {
+      color: white;
+    }
+
+    form .btn {
+      border: 1px solid white;
+      color: white;
+    }
+
+    form .btn:hover {
+      background-color: #000000;
+      color: white;
+    }
+
+    </style>
+    </style>
 
 </head>
 
@@ -130,7 +159,7 @@
         </div>
     </nav>
 
-    <div class="container-fluid" style="max-width: 40%;">
+    <div class="container-fluid" style="max-width: 100px;">
         <h2 class="text-center">To-Do List</h2>
         <div class="input-group mb-4">
             <textarea class="form-control" id="todoInput" placeholder="Add a new task" rows="3"></textarea>
