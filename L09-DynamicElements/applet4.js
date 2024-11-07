@@ -53,4 +53,4 @@ class StudentList {
     }
 }
 
-const studentList = new StudentList('applet-4.json');
+const studentList = new StudentList('applet4.jso');

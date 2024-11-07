@@ -2,16 +2,21 @@
     {
         "latitude": 8.359735,
         "longitude": 124.869206,
-        "message": "CCS Faculty Office"
+        "message": "Balay sakung lalabs"
     },
     {
         "latitude": 8.359639,
         "longitude": 124.869179,
-        "message": "CCS Laboratory 1"
+        "message": "Balay ni Mayang"
     },
     {
         "latitude": 8.359554,
         "longitude": 124.869153,
-        "message": "CCS Laboratory 2"
+        "message": "Ang Labda"
+    },
+    {
+        "latitude": 8.359752,
+        "longitude": 124.869261,
+        "message": "payag"
     }
 ]

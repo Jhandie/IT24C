@@ -7,5 +7,5 @@ function updateDisplay() {
 
 function showAlert() {
     var textbox = document.getElementById('textbox');
-    alert("sawadeee " + textbox.value);
+    alert("Mabuhay" + textbox.value);
 }

@@ -1,0 +1,26 @@
+[
+    {
+        "student_id": 1,
+        "student_name": "nana",
+        "student_program": "BS-isogako",
+        "student_enrolled_date": "2004-09-09"
+    },
+    {
+        "student_id": 2,
+        "student_name": "nanu",
+        "student_program": "BS-akonato",
+        "student_enrolled_date": "2003-09-09"
+    },
+    {
+        "student_id": 3,
+        "student_name": "nani",
+        "student_program": "BS-cutesyy",
+        "student_enrolled_date": "2002-09-09"
+    },
+    {
+        "student_id": 4,
+        "student_name": "nun",
+        "student_program": "BS-demurity",
+        "student_enrolled_date": "2001-09-09"
+    }
+]

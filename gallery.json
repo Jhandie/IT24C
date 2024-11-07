@@ -2,37 +2,39 @@
     {
         "title": "Applet 1 - Basic Events",
         "description": "This application contains the basic implementation of DOM events.",
-        "imageUrl": "https://4kwallpapers.com/images/walls/thumbs_3t/6722.png",
-        "link": "./L06-AppletGallery/applet-1.html"
+        "imageUrl": "https://i.pinimg.com/564x/6a/a6/65/6aa66557fe2ad24b260fc102238d2de3.jpg",
+        "link": "./L06-AppletGallery/applet1.html"
     },
     {
         "title": "Applet 2 - Leaflet Map",
         "description": "This application contains the basic web map.",
-        "imageUrl": "https://4kwallpapers.com/images/walls/thumbs_3t/6722.png",
-        "link": "./L07-LeafletMap/applet-2.html"
+        "imageUrl": "https://i.pinimg.com/564x/97/f7/9f/97f79f018dbe10b6b709e7b1199f29e7.jpg",
+        "link": "./L07-LeafletMap/applet2.html"
     },
     {
         "title": "Applet 3 - Event Logger",
         "description": "This application contains the logs with the date and total number of logs.",
-        "imageUrl": "https://4kwallpapers.com/images/walls/thumbs_3t/6722.png",
-        "link": "./L08-EventLogger/applet-3.html"
+        "imageUrl": "https://i.pinimg.com/736x/d2/b3/95/d2b3956aa585c4a67438a7442ca8c663.jpg",
+        "link": "./L08-EventLogger/applet3.html"
     },
     {
         "title": "Applet 4 - Dynamic Elements",
         "description": "This application applies dynamic elements such as rendering DOM elements from a list.",
-        "imageUrl": "https://4kwallpapers.com/images/walls/thumbs_3t/6722.png",
-        "link": "./L09-DynamicElements/applet-4.html"
+        "imageUrl": "https://i.pinimg.com/564x/59/3e/80/593e807d229d22ad21609c049a18704e.jpg",
+        "link": "./L09-DynamicElements/applet4.html"
     },
     {
         "title": "Applet 5 - Open Weather",
-        "description": "This application applies Open Weather.",
-        "imageUrl": "https://4kwallpapers.com/images/walls/thumbs_3t/6722.png",
-        "link": "./L011-OpenWeather/applet-5.html"
+        "description": "This application is the basic usage of the Openweather API.",
+        "imageUrl": "https://i.pinimg.com/736x/40/48/b6/4048b62459092ff75649b060f05b4311.jpg",
+        "link": "./L011-OpenWeather/applet5.html"
     },
     {
-        "title": "Applet 6 - To Do List",
-        "description": "This application applies To do list.",
-        "imageUrl": "https://4kwallpapers.com/images/walls/thumbs_3t/6722.png",
-        "link": "./L012-ToDoList/applet-6.html"
+        "title": "Applet 6 - To do List",
+        "description": "A to-do list is a tool that helps individuals manage tasks by allowing them to add, edit, and remove items",
+        "imageUrl": "https://i.pinimg.com/736x/0f/08/31/0f083158bde278ae2af57f1d3fa5f7bb.jpg",
+        "link": "./L012-TodoList/applet6.html"
     }
+    
+    
 ]

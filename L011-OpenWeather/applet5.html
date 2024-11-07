@@ -26,6 +26,99 @@
         .weather-card {
             background: #343434;
         }
+       body {
+      background: #93b5f3;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .applet-flex-container {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 2rem;
+      margin-left: 5rem;
+      width: 70%;
+    }
+
+    .applet-flex-container>div {
+      margin-left: 0.8rem;
+      color: white;
+      border-radius: 20px;
+      border: 1px solid rgb(255, 255, 255);
+      background-color: #919191;
+      transition: background-color 0.3s ease;
+      padding: 20px;
+    }
+
+    .applet-flex-container>div:hover {
+      background-color: #a29fa3;
+    }
+
+    .applet-flex-container>div:hover .applet-btn {
+      color: white;
+    }
+
+    .title {
+      margin-top: 1rem;
+      text-align: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      color: #f4a261;
+    }
+
+    .applet-card {
+      flex: 1 1 20rem;
+      max-width: 20rem;
+      width: 25rem;
+      height: 15rem;
+      margin-bottom: 1rem;
+      box-sizing: border-box;
+    }
+
+    .applet-btn {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      border-radius: 20px;
+      background-color: #f36f57;
+      border: none;
+      transition: transform 0.3s ease, border 0.3s ease, color 0.3s ease;
+    }
+
+    .applet-btn:hover {
+      border: 1px solid #ffffff;
+      background-color: #bbbbbb;
+      color: #ffffff;
+      transform: scale(1.15);
+    }
+
+    .navbar {
+      background: linear-gradient(500deg, #000fdd, #103ccc);
+    }
+
+    .navbar .navbar-nav .nav-link {
+      color: white;
+    }
+
+    .navbar .navbar-brand {
+      color: white;
+    }
+
+    form .btn {
+      border: 1px solid white;
+      color: white;
+    }
+
+    form .btn:hover {
+      background-color: #000000;
+      color: white;
+    }
+
     </style>
 
 </head>
@@ -47,12 +140,12 @@
                             Applets
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="L06-AppletGallery/applet-1.html">Applet 1</a></li>
-                        <li><a class="dropdown-item" href="L07-LeafletMap/applet-2.html">Applet 2</a></li>
-                        <li><a class="dropdown-item" href="L08-EventLogger/applet-3.html">Applet 3</a></li>
-                        <li><a class="dropdown-item" href="L09-DynamicElements/applet-4.html">Applet 4</a></li>
-                        <li><a class="dropdown-item" href="L011-OpenWeather/applet-5.html">Applet 5</a></li>
-                        <li><a class="dropdown-item" href="L012-ToDoList/applet-6.html">Applet 6</a></li>
+                            <li><a class="dropdown-item" href="L06-AppletGallery/applet1.html">Applet 1</a></li>
+                        <li><a class="dropdown-item" href="L07-LeafletMap/applet2.html">Applet 2</a></li>
+                        <li><a class="dropdown-item" href="L08-EventLogger/applet3.html">Applet 3</a></li>
+                        <li><a class="dropdown-item" href="L09-DynamicElements/applet4.html">Applet 4</a></li>
+                        <li><a class="dropdown-item" href="L011-OpenWeather/applet5.html">Applet 5</a></li>
+                        <li><a class="dropdown-item" href="L012-TodoList/applet6.html">Applet 6</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -145,7 +238,7 @@
         </div>
     </div>
 
-    <script src="L11_Applet5.js"></script>
+    <script src="applet5.html"></script>
 
 </body>
 
